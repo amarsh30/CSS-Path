@@ -1,0 +1,195 @@
+:root {
+    --bg-color: #D9F4FC;
+}
+
+body {
+    font-family: arial;
+    background-color: var(--bg-color);
+}
+
+.text-grey {
+    font-size: 20px;
+}
+
+/* pseudo class */
+.pseudo:hover {
+    color: wheat;
+    background-color: gray;
+}
+
+.pseudo:active {
+    font-style: italic;
+}
+.pseudo a {
+    font-size: 20px;
+}
+.pseudo:visited {
+    color: coral;
+}
+
+li:nth-child(even) a {
+    color: green;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cetak-tebal {
+    font-weight: bold;
+}
+
+p.cetak-tebal {
+    font-size: 30px;
+}
+
+article p:first-of-type {
+    color:darkred;
+    font-size: 1.5em;
+}
+
+.my-class {
+    color: red;
+}
+
+[data-type='primary'] {
+    color: blue;
+}
+
+/* A href that contains "example.com" */
+/* [href*='example.com'] {
+    color: red;
+  } */
+  
+  /* A href that starts with https */
+  /* [href^='https'] {
+    color: green;
+  } */
+  
+  /* A href that ends with .com */
+  /* [href$='.com'] {
+    color: blue;
+  }
+
+  a[href$=".pdf"]::before {
+    background-image: url(https://web-dev.imgix.net/image/VbAJIREinuYvovrBzzvEyZOpw5w1/fc7bLiJYf5US6QxTOKsF.png);
+  }
+  
+  a[href$=".jpg"]::before,
+  a[href$=".png"]::before {
+    background-image: url(https://web-dev.imgix.net/image/VbAJIREinuYvovrBzzvEyZOpw5w1/N79qCc0c06217YT4ofYM.png);
+  }
+  
+  
+  a::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 100%;
+    margin-inline-end: 0.5em;
+    opacity: 0.8;
+  } */
+
+ /* Our link is hovered */
+/* a:hover {
+    outline: 1px dotted green;
+  }
+   */
+  /* Sets all even paragraphs to have a different background */
+  /* p:nth-child(even) {
+    background: floralwhite;
+  }
+
+  .my-element::before {
+    content: 'Prefix - ';
+  } */
+
+  /* Your list will now either have red dots, or red numbers */
+/* li::marker {
+    color: red;
+  }
+
+  ::selection {
+    background: black;
+    color: white;
+  } */ 
