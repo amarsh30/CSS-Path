@@ -1,0 +1,33 @@
+:root {
+    --color-light: lightblue;
+    --color-primary: #1060BC;
+}
+
+
+
+.top * + * {
+    margin-top: 1.5em;
+}
+
+/* Presentation Styles */
+.top p {
+    border: 1px solid var(--color-primary);
+    background: var(--color-light);
+    padding: 1em;
+}
+
+/* Presentation Styles */
+.top > * + * {
+    position: relative;
+}
+
+.top > * + *::before {
+    content: "";
+    width: 100%;
+    height: 1.5em;
+    background: #FF807B;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    outline: 1px solid #9d0600;
+}
